@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Vanilla/FrameWindow" Name="wndConsole" >
+            <Property Name="TitlebarFont" Value="Iconified-12" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.3,0}}" />
+            <Property Name="Visible" Value="False" />
+
+            <Window Type="Vanilla/Editbox" Name="wndConsole/Input" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.85,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="Vanilla/Listbox" Name="wndConsole/Output" >
+                <Property Name="Text" >
+		</Property>
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.84,0}}" />
+            </Window>
+        </Window>
+        <Window Type="Vanilla/FrameWindow" Name="wndDebug" >
+            <Property Name="TitlebarFont" Value="featuredItem-12" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{0.2,0},{1,0}}" />
+            <Property Name="Visible" Value="True" />
+            <Property Name="Text" Value="Pretty Debug-Window" />
+            <Window Type="Vanilla/StaticText" Name="txtDebug" >
+                <Property Name="Text" Value="fps: 56" />
+                <Property Name="Visible" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0,30},{1,0},{0.5,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="Vanilla/StaticText" Name="txtFPS" >
+                <Property Name="Text" Value="fps: 56" />
+                <Property Name="Visible" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,15},{0.4,0},{1,0},{0.75,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+
+        </Window>
+	<Window Type="DefaultWindow" Name="GUIMenus" >
+        	<Property Name="InheritsAlpha" Value="False" />
+       		<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+	        <Window Type="Vanilla/FrameWindow" Name="wndMainMenu" >
+	            <Property Name="Text" Value="Ready to connect?" />
+	            <Property Name="Visible" Value="False" />
+	            <Property Name="TitlebarFont" Value="Iconified-12" />
+	            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	            <Property Name="UnifiedMinSize" Value="{{1,0},{1,0}}" />
+	            <Property Name="TitlebarEnabled" Value="True" />
+	            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+	            <Property Name="CloseButtonEnabled" Value="False" />
+	            <Window Type="Vanilla/StaticImage" Name="Background" >
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.9,0},{0.35255,0}}" />
+			<Property Name="Image" Value="set:Background image:Background" />
+	            </Window>
+	            <Window Type="Vanilla/Button" Name="btnConnect" >
+	                <Property Name="Text" Value="Play" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.4,0},{0.6,0},{0.5,0}}" />
+		    </Window>
+        	    <Window Type="Vanilla/Button" Name="btnHelp" >
+	                <Property Name="Text" Value="Help" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.55,0},{0.6,0},{0.65,0}}" />
+	            </Window>
+	            <Window Type="Vanilla/Button" Name="btnCredits" >
+	                <Property Name="Text" Value="Credits" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.7,0},{0.6,0},{0.8,0}}" />
+	            </Window>
+	            <Window Type="Vanilla/Button" Name="btnQuit" >
+	                <Property Name="Text" Value="Quit?" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.85,0},{0.6,0},{0.95,0}}" />
+	            </Window>
+	            <Window Type="Vanilla/FrameWindow" Name="wndCredits" >
+	                <Property Name="Text" Value="Credits" />
+	                <Property Name="Visible" Value="False" />
+	                <Property Name="TitlebarFont" Value="Iconified-12" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="ClippedByParent" Value="False" />
+	                <Property Name="TitlebarEnabled" Value="True" />
+	                <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.2,0},{0.9,0},{0.65,0}}" />
+	                <Window Type="Vanilla/StaticText" Name="txtCredits" >
+	                    <Property Name="Text" >
+
+We thank these people for support, input and their help in this project:
+
+The Yake-Community
+The Ogre-Community
+GameDev.net
+
+Fabian - XML, LUA
+Hubert - Documentation, GUI-Design
+Tommi - Coding, Project Management
+
+FH Technikum Wien
+	                    </Property>
+	                    <Property Name="FrameEnabled" Value="False" />
+	                    <Property Name="HorzFormatting" Value="HorzCentred" />
+	                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                    <Property Name="VertFormatting" Value="TopAligned" />
+	                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+	                    <Property Name="BackgroundEnabled" Value="False" />
+	                </Window>
+	            </Window>
+	        </Window>
+	        <Window Type="Vanilla/FrameWindow" Name="wndHelp" >
+	            <Property Name="Text" Value="Help screen" />
+	            <Property Name="Visible" Value="False" />
+	            <Property Name="TitlebarFont" Value="Iconified-12" />
+	            <Property Name="UnifiedMaxSize" Value="{{0.8,0},{0.8,0}}" />
+	            <Property Name="UnifiedMinSize" Value="{{0.8,0},{0.8,0}}" />
+	            <Property Name="TitlebarEnabled" Value="True" />
+	            <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.9,0},{0.9,0}}" />
+        	    <Window Type="Vanilla/StaticText" Name="txtHelp" >
+	                <Property Name="Text" >
+
+Controls:
+
+F1: This screen
+F2: Main Menu
+tab: Console
+Esc: Blend Menus in/out
+
+Vehicle control:
+W/S: Forwards/Backwards
+Q/E: Left/Right
+R/F: Up/Down
+
+Camera control (on the number block):
+2/8: Forwards/Backwards
+4/6: Left/Right
+1/7: Up/Down
+
+Switch between cam and vehicle: T
+
+
+F12: Quit</Property>
+	                <Property Name="FrameEnabled" Value="False" />
+	                <Property Name="HorzFormatting" Value="HorzCentred" />
+	                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+	                <Property Name="VertFormatting" Value="TopAligned" />
+	                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+	                <Property Name="BackgroundEnabled" Value="False" />
+	            </Window>
+	        </Window>
+        </Window>
+    </Window>
+</GUILayout>

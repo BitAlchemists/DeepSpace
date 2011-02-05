@@ -1,0 +1,167 @@
+material plane1_/back_1_shader
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 1 1 1 1
+			specular 0.42148 0.42148 0.42148 50
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture body_back_1_color.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material plane1_/phong3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 1 1 1 1
+			specular 0.42148 0.42148 0.42148 50
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture wings_1_color.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material plane1_/engine_1_shader
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 1 1 1 1
+			specular 0.580866 0.645676 0.677 5
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture duese_1_color.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material plane1_/lower_wing_shader
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 1 1 1 1
+			specular 0.42148 0.42148 0.42148 50
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture lower_wing_color.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material plane1_/blinn1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 1 1 1 10
+			emissive 0 0 0
+		}
+	}
+}
+material plane1_/phong2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 1 1 1 1
+			specular 0.42148 0.42148 0.42148 50
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture body_front_1_color.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material plane1_/pipe_1_shader
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0.5 0.5 0.5 20
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture schlaeuche_1_color.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material plane1_/blinn2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0.754 0 1
+			diffuse 1 1 1 0
+			specular 0 0 0 1.0
+			emissive 0 0 0
+
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}

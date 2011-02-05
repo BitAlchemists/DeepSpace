@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<Imageset Name="EU-Window_Background_02" Imagefile="window_background_02.gif" NativeHorzRes="800" NativeVertRes="600" AutoScaled="true">
+	<Image Name="bgwin02" XPos="0" YPos="0" Width="480" Height="640" />
+</Imageset>

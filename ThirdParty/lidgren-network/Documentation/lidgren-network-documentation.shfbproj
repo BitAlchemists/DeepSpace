@@ -1,0 +1,40 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- The configuration and platform will be used to determine which
+         assemblies to include from solution and project documentation
+         sources -->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{522372c3-e3f2-47aa-82d1-3e06c0b2882d}</ProjectGuid>
+    <SHFBSchemaVersion>1.8.0.0</SHFBSchemaVersion>
+    <!-- AssemblyName, Name, and RootNamespace are not used by SHFB but Visual
+         Studio adds them anyway -->
+    <AssemblyName>Documentation</AssemblyName>
+    <RootNamespace>Documentation</RootNamespace>
+    <Name>Documentation</Name>
+    <!-- SHFB properties -->
+    <OutputPath>.\</OutputPath>
+    <HtmlHelpName>Documentation</HtmlHelpName>
+    <HelpTitle>Lidgren Networking Library</HelpTitle>
+    <DocumentationSources>
+      <DocumentationSource sourceFile="..\Lidgren.Network\bin\Release\Lidgren.Network.dll" xmlns="" />
+      <DocumentationSource sourceFile="..\Lidgren.Network\bin\Release\Lidgren.Network.xml" xmlns="" />
+    </DocumentationSources>
+    <CopyrightHref>http://code.google.com/p/lidgren-network</CopyrightHref>
+    <FeedbackEMailAddress>michael%40lidgren.net</FeedbackEMailAddress>
+    <FeedbackEMailLinkText>Michael Lidgren</FeedbackEMailLinkText>
+    <MissingTags>Parameter, Returns, AutoDocumentCtors, TypeParameter</MissingTags>
+    <ShowFeedbackControl>True</ShowFeedbackControl>
+    <VisibleItems>Attributes, InheritedMembers, InheritedFrameworkMembers, Protected, SealedProtected</VisibleItems>
+    <ProjectLinkType>Local</ProjectLinkType>
+  </PropertyGroup>
+  <!-- There are no properties for these two groups but they need to appear in
+       order for Visual Studio to perform the build. -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <!-- Import the SHFB build targets -->
+  <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
+</Project>

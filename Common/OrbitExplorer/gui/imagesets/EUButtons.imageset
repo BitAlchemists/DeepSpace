@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><Imageset Name="EU-Buttons" Imagefile="button_Imageset.gif" NativeHorzRes="800" NativeVertRes="600" AutoScaled="true">
+	<Image Name="btn_var1_Normal" XPos="0" YPos="0" Width="169" Height="29" />
+	<Image Name="btn_var1_Hover" XPos="169" YPos="0" Width="169" Height="29" />
+	<Image Name="btn_var1_Pushed" XPos="338" YPos="0" Width="169" Height="29" />
+
+	<Image Name="btn_var2_Normal" XPos="0" YPos="29" Width="169" Height="29" />
+	<Image Name="btn_var2_Hover" XPos="169" YPos="29" Width="169" Height="29" />
+	<Image Name="btn_var2_Pushed" XPos="338" YPos="29" Width="169" Height="29" />
+
+	<Image Name="btn_var3_Normal" XPos="0" YPos="58" Width="169" Height="29" />
+	<Image Name="btn_var3_Hover" XPos="169" YPos="58" Width="169" Height="29" />
+	<Image Name="btn_var3_Pushed" XPos="338" YPos="58" Width="169" Height="29" />
+
+	<Image Name="btn_var4_Normal" XPos="0" YPos="87" Width="169" Height="29" />
+	<Image Name="btn_var4_Hover" XPos="169" YPos="87" Width="169" Height="29" />
+	<Image Name="btn_var4_Pushed" XPos="338" YPos="87" Width="169" Height="29" />
+
+	<Image Name="btn_var5_Normal" XPos="0" YPos="116" Width="169" Height="29" />
+	<Image Name="btn_var5_Hover" XPos="169" YPos="116" Width="169" Height="29" />
+	<Image Name="btn_var5_Pushed" XPos="338" YPos="116" Width="169" Height="29" />
+
+	<Image Name="btn_var6_Normal" XPos="0" YPos="145" Width="169" Height="29" />
+	<Image Name="btn_var6_Hover" XPos="169" YPos="145" Width="169" Height="29" />
+	<Image Name="btn_var6_Pushed" XPos="338" YPos="145" Width="169" Height="29" />
+
+	<Image Name="btn_var7_Normal" XPos="0" YPos="174" Width="169" Height="29" />
+	<Image Name="btn_var7_Hover" XPos="169" YPos="174" Width="169" Height="29" />
+	<Image Name="btn_var7_Pushed" XPos="338" YPos="174" Width="169" Height="29" />
+
+	<Image Name="btn_var8_Normal" XPos="0" YPos="203" Width="169" Height="29" />
+	<Image Name="btn_var8_Hover" XPos="169" YPos="203" Width="169" Height="29" />
+	<Image Name="btn_var8_Pushed" XPos="338" YPos="203" Width="169" Height="29" />
+
+	<Image Name="ButtonLeftNormal" XPos="0" YPos="203" Width="10" Height="29" />
+	<Image Name="ButtonMiddleNormal" XPos="10" YPos="203" Width="149" Height="29" />
+	<Image Name="ButtonRightNormal" XPos="159" YPos="203" Width="10" Height="29" />
+
+	<Image Name="ButtonLeftHighlight" XPos="169" YPos="203" Width="10" Height="29" />
+	<Image Name="ButtonMiddleHighlight" XPos="179" YPos="203" Width="149" Height="29" />
+	<Image Name="ButtonRightHighlight" XPos="328" YPos="203" Width="10" Height="29" />
+
+	<Image Name="ButtonLeftPushed" XPos="338" YPos="203" Width="10" Height="29" />
+	<Image Name="ButtonMiddlePushed" XPos="348" YPos="203" Width="149" Height="29" />
+	<Image Name="ButtonRightPushed" XPos="497" YPos="203" Width="10" Height="29" />
+
+</Imageset>

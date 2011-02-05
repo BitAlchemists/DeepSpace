@@ -1,0 +1,37 @@
+// exhaust - fire (and smoke?)
+// source: OGRE3D
+thruster2
+{
+    	material        	Examples/Flare
+    	particle_width  	1
+    	particle_height 	1
+    	cull_each       	false
+    	quota           	200
+    	billboard_type  	point
+    
+    	// Area emitter
+    	emitter Point
+    	{
+			angle               		0.5
+        	emission_rate       		100
+			time_to_live    0.2
+			direction       0 0 1
+			velocity_min    10
+			velocity_max    12
+			colour_range_start  1 1 0.5
+			colour_range_end    1 0.8 0.3
+		}
+
+	affector ColourFader
+	{
+		red -0.25
+		green -1
+		blue -1
+	}
+
+   	affector Scaler
+   	{
+       	rate 	0.1
+   	}
+
+}

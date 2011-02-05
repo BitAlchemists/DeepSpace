@@ -1,0 +1,876 @@
+
+material iss/issmod_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSMOD.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/white
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+material iss/material04
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0980392 0.470588 0.0431373 1
+			diffuse 0.0980392 0.470588 0.0431373 1
+		}
+
+	}
+
+}
+
+material iss/Material2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.478431 0.435294 0.501961 1
+			diffuse 0.478431 0.435294 0.501961 1
+		}
+
+	}
+
+}
+
+material iss/Material1
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+material iss/Material3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.45098 0.509804 0.603922 1
+			diffuse 0.45098 0.509804 0.603922 1
+		}
+
+	}
+
+}
+
+material iss/bluebg
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0.203922 0.741176 1
+			diffuse 0 0.203922 0.741176 1
+		}
+
+	}
+
+}
+
+material iss/isscover_with_Te
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.839216 0.839216 0.839216 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSCOVER.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issleo_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.784314 0.784314 0.784314 1
+			diffuse 0.784314 0.784314 0.784314 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSLEO.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issusaf_with_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.784314 0.784314 0.784314 1
+			diffuse 0.784314 0.784314 0.784314 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSUSAF.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/19_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSUSA.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSRED.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issusa_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.580392 0.580392 1
+			diffuse 0.580392 0.580392 0.580392 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSKU.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issred_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.580392 0.580392 1
+			diffuse 0.580392 0.580392 0.580392 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSP2.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/iss_un_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.580392 0.580392 1
+			diffuse 0.580392 0.580392 0.580392 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISS_UN.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/isshand_with_Tex
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSHAND.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/isscov2_with_Tex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.952941 0.952941 0.952941 1
+			diffuse 0.952941 0.952941 0.952941 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSCOV2.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/graple_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.580392 0.580392 1
+			diffuse 0.580392 0.580392 0.580392 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture GRAPLE.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/questcov_with_Te
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.929412 0.929412 0.929412 1
+			diffuse 0.929412 0.929412 0.929412 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture QUESTCOV.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issins_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.831373 0.831373 0.831373 1
+			diffuse 0.831373 0.831373 0.831373 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSINS.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/metalcon_with_Te
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.831373 0.831373 0.831373 1
+			diffuse 0.831373 0.831373 0.831373 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture METALCON.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/isscup_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.870588 0.831373 0.580392 1
+			diffuse 0.870588 0.831373 0.580392 1.31
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSCUP.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issbs_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.894118 0.894118 0.894118 1
+			diffuse 0.894118 0.894118 0.894118 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSBS.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issesa_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.894118 0.894118 0.894118 1
+			diffuse 0.894118 0.894118 0.894118 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSESA.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issrad_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.894118 0.894118 0.894118 1
+			diffuse 0.894118 0.894118 0.894118 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSRAD.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/nasda_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.580392 0.580392 1
+			diffuse 0.580392 0.580392 0.580392 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture NASDA.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issusaf_with_Tex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.584314 0.584314 0.584314 1
+			diffuse 0.584314 0.584314 0.584314 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSUSAF.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issmb_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.894118 0.894118 0.894118 1
+			diffuse 0.894118 0.894118 0.894118 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSMB.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issbso2_with_Tex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.941177 0.941177 0.941177 1
+			diffuse 0.941177 0.941177 0.941177 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSBSO2.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issbso_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.941177 0.941177 0.941177 1
+			diffuse 0.941177 0.941177 0.941177 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSBSO.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issku2_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.584314 0.584314 0.584314 1
+			diffuse 0.584314 0.584314 0.584314 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSKU2.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issdish_with_Tex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.894118 0.894118 0.894118 1
+			diffuse 0.894118 0.894118 0.894118 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSDISH.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issku1_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.839216 0.839216 0.839216 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSKU1.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issku_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.839216 0.839216 0.839216 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSKU.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issb4_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.87451 0.87451 0.87451 1
+			diffuse 0.87451 0.87451 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSB4.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/isssolar_with_Te
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.941177 0.941177 0.941177 1
+			diffuse 0.941177 0.941177 0.941177 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSSOLAR.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issb2_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.839216 0.839216 0.839216 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSB2.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/isszmod_with_Tex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.839216 0.839216 0.839216 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSZMOD.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issb3_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.972549 0.972549 0.972549 1
+			diffuse 0.972549 0.972549 0.972549 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSB3.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issdot_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.862745 0.862745 0.862745 1
+			diffuse 0.862745 0.862745 0.862745 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSDOT.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issp2_with_Tex:_
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.87451 0.87451 0.87451 1
+			diffuse 0.87451 0.87451 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSP2.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/issb_with_Tex:_I
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.839216 0.839216 0.839216 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSB.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/isspanel_with_Te
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.839216 0.839216 0.839216 1
+			diffuse 0.839216 0.839216 0.839216 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISSPANEL.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/d_ring_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture_alias 0
+				texture D_RING.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/iss_dcs_with_Tex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.584314 0.584314 0.584314 1
+			diffuse 0.584314 0.584314 0.584314 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISS_DCS.BMP
+			}
+		}
+
+	}
+
+}
+
+material iss/iss_dc_with_Tex:
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.584314 0.584314 0.584314 1
+			diffuse 0.584314 0.584314 0.584314 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ISS_DC.BMP
+			}
+		}
+
+	}
+
+}

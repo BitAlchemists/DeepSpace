@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<!-- We still have to keep this file, because YAKE requires it to initialise properly -->
+<GUIScheme Name="VanillaSkin">
+	<Imageset Name="Vanilla-Images" Filename="Vanilla.imageset" />
+</GUIScheme>

@@ -1,0 +1,14 @@
+﻿//Manjo - effektive Mikroorganismen
+
+Was macht die Anwendung?
+
+Szene:
+* schwarzer Hintergrund
+* Overlay mit: Punkte, Level, Leben
+* Asteroiten - Gegner
+* Racer
+
+Klassen : Komponenten
+
+Asteroid : Graphics, Physics
+Racer : Graphics, Physics, Sound, Input
